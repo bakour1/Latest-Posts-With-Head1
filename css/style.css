@@ -27,7 +27,7 @@ html {
   font-size: 13px;
 }
 
-@media (min-width:350px) {
+@media (min-width:400px) {
   html {
     font-size: 16px;
   }
@@ -107,6 +107,7 @@ header h2 {
   height: 100%;
   padding-inline: 1.25rem;
   color: var(--bg-body);
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 300;
   position: relative;
@@ -136,6 +137,7 @@ header .view {
 header .view>a:first-child,
 header .view a:last-child {
   display: block;
+  font-size: 1rem;
   height: 100%;
   text-align: center;
   line-height: 2.75rem;
@@ -145,6 +147,7 @@ header .view a:last-child {
 header .view>a:first-child {
   width: 60%;
   background-color: var(--bg-section);
+  font-size: 16px;
   color: var(--c-text);
   text-transform: uppercase;
   font-weight: 400;
